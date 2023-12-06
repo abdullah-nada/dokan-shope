@@ -465,7 +465,7 @@ ul li {
   border-color: #f3f3f3;
   font-weight: 400;
 }
-
+/* --------------------------- */
 @media (max-width: 767px) {
   .sigin-up-from .name {
     flex-direction: column;
@@ -501,10 +501,27 @@ ul li {
   background-color: red;
 }
 
-/* @media (max-width: 767px) {
-  .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media (max-width: 767px) {
+  .about-imge img {
+    width: 100%;
   }
-} */
+}
+
+@media (max-width: 992px) {
+  .picture .m-member {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+.img-amazing h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.img-amazing span {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18;
+  opacity: 70%;
+}
